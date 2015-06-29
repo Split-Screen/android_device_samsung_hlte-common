@@ -60,6 +60,16 @@ PRODUCT_PACKAGES += \
     com.dsi.ant.antradio_library \
     libantradio
 
+# Filesystem
+PRODUCT_PACKAGES += \
+    e2fsck \
+    fibmap.f2fs \
+    fsck.f2fs \
+    make_ext4fs \
+    mkfs.f2fs \
+    resize2fs \
+    setup_fs
+
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8974
